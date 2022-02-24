@@ -1,0 +1,28 @@
+#titulo{
+    color: blueviolet; text-align: center;
+}
+#img_thales{
+    border-radius: 200%; text-align: right;
+}
+body{
+    font-size: 20px; background-color: #10002B; color: white; text-align: center;
+}
+ul{
+    list-style: none;
+}
+#logo_right{
+    position: absolute;
+    left: 51%; 
+    top: 186%;
+    background-color: whitesmoke; 
+    border-radius: 100%;
+    padding: 3.8px;
+}
+#logo_left{
+    position: absolute;
+    left: 46%; 
+    top: 186%;
+    background-color: whitesmoke; 
+    border-radius: 100%;
+    padding: 3.8px;
+}
