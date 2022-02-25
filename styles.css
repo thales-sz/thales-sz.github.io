@@ -1,6 +1,7 @@
 #titulo{
     color: #3c5540; font-size: 60px;
-    
+    position: absolute;
+    top: 100px;
 }
 #img_thales{
     text-align: center; border-radius: 100%;
@@ -28,6 +29,5 @@ div.box1 {
 	display: inline-block;
 }
 #boas_vindas{
-    font-size: 25px; color: #575A5E; font-family: 'Times New Roman', Times, serif; font-weight: 100;
-    width: 50px;
+    font-size: 20px; color: #575A5E; font-family: 'Times New Roman', Times, serif; font-weight: 100;
 }
