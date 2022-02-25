@@ -28,5 +28,6 @@ div.box1 {
 	display: inline-block;
 }
 #boas_vindas{
-    font-size: 20px; color: #575A5E; font-family: 'Times New Roman', Times, serif; font-weight: 100;
+    font-size: 25px; color: #575A5E; font-family: 'Times New Roman', Times, serif; font-weight: 100;
+    width: 50px;
 }
