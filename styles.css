@@ -1,28 +1,24 @@
 #titulo{
-    color: blueviolet; text-align: center;
+    color: #3c5540; text-align: center; font-size: 80px;
 }
 #img_thales{
-    border-radius: 200%; text-align: right;
+    text-align: center; border-radius: 100%;
 }
 body{
-    font-size: 20px; background-color: #10002B; color: white; text-align: center;
-}
-ul{
-    list-style: none;
+    font-size: 25px; background-color: #F4F7F5; color: #575A5E; text-align: center;
 }
 #logo_right{
-    position: absolute;
-    left: 51%; 
-    top: 186%;
-    background-color: whitesmoke; 
+    position: bottom;
     border-radius: 100%;
-    padding: 3.8px;
 }
 #logo_left{
-    position: absolute;
-    left: 46%; 
-    top: 186%;
-    background-color: whitesmoke; 
+    position: bottom; 
     border-radius: 100%;
-    padding: 3.8px;
+}
+div.box {
+	width: 150px;
+	display: inline-block;
+}
+h3{
+    color: #38533c
 }
