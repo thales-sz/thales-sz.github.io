@@ -1,13 +1,13 @@
 #titulo{
     color: #3c5540; font-size: 60px;
-    position: absolute;
-    top: 100px;
 }
 #img_thales{
-    text-align: center; border-radius: 100%;
+    text-align: center; 
+    padding: 0%; margin: 0%; border: 0%;
 }
 body{
     font-size: 25px; background-color: #F4F7F5; color: #575A5E; text-align: center;
+    padding: 0%; margin: 0%; border: 0%;
 }
 #logo_right{
     position: bottom;
