@@ -2,11 +2,11 @@
     color: #3c5540; font-size: 60px;
 }
 #img_thales{
-    text-align: center; 
+    text-align: right; 
     padding: 0%; margin: 0%; border: 0%;
 }
 body{
-    font-size: 25px; background-color: #F4F7F5; color: #575A5E; text-align: center;
+    font-size: 25px; background-color: #e0dfdf; color: #575A5E; text-align: center;
     padding: 0%; margin: 0%; border: 0%;
 }
 #logo_right{
