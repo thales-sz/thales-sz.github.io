@@ -3,7 +3,7 @@
 }
 #img_thales{
     text-align: right; 
-    padding: 0%; margin: 0%; border: 0%;
+    padding: 0%; margin: 0%; border: 0ch;
 }
 body{
     font-size: 25px; background-color: #e0dfdf; color: #575A5E; text-align: center;
@@ -30,4 +30,9 @@ div.box1 {
 }
 #boas_vindas{
     font-size: 20px; color: #575A5E; font-family: 'Times New Roman', Times, serif; font-weight: 100;
+}
+.head_description{
+    display: inline-block;
+    color: aqua;
+
 }
