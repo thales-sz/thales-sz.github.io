@@ -1,38 +1,23 @@
-#titulo{
-    color: #3c5540; font-size: 60px;
+.head_description{
+    display: inline-block;
+    position: relative;
+    top: -400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#img_thales{
-    text-align: right; 
-    padding: 0%; margin: 0%; border: 0ch;
+#head_img{
+    border-radius: 100%;
+    display: inline-block;
 }
 body{
     font-size: 25px; background-color: #e0dfdf; color: #575A5E; text-align: center;
     padding: 0%; margin: 0%; border: 0%;
 }
-#logo_right{
-    position: bottom;
-    border-radius: 100%;
-}
-#logo_left{
-    position: bottom; 
-    border-radius: 100%;
-}
-div.box {
-	width: 150px;
-	display: inline-block;
-}
 h3{
     color: #38533c
 }
-div.box1 {
-	width: 600px;
-	display: inline-block;
-}
-#boas_vindas{
-    font-size: 20px; color: #575A5E; font-family: 'Times New Roman', Times, serif; font-weight: 100;
-}
-.head_description{
+.contact{
     display: inline-block;
-    color: aqua;
-
+    margin-right: 30px;
+    margin-left: 30px;
 }
+/* background color = #e0dfdf */
