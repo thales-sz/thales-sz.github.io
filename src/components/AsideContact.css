@@ -1,0 +1,40 @@
+.contact-me {
+  display: flex;
+  color: #dad5b7;
+  font-size: 15px;
+  align-items: center;
+  align-content: center;
+  text-decoration: none;
+  background-color: #3a5f6f;
+  z-index: -1;
+  border-radius: 30px;
+  border: none;
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.contact-icon {
+  margin-left: 9px;
+  z-index: 0;
+}
+
+#contact-text {
+  font-size: 15px;
+}
+
+#helper:hover > .contact-me {
+  transition: all 600ms;
+  width: 140px;
+}
+
+#helper:hover > .contact-me > #content-text {
+  transition: all 600ms;
+  color: black;
+}
+
+#helper {
+  margin-left: 9px;
+  width: 110px;
+  z-index: 10;
+}
