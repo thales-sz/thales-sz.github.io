@@ -1,33 +1,123 @@
 .header {
-  background-color: #8000ff54;
+  display: flex;
+  flex-direction: column;
 }
 
 .header-container {
+  background-color: #3a5f6f;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   width: 100;
-  color: #161415;
+  color: #DAD5B7;
   height: 80px;
   padding: 15px 0 0 20px;
 }
 
-.text-header {
-  text-align: center;
+.menu-container {
+  width: 100px;
+  color:#DAD5B7;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  border: none;
+  justify-content: space-between;
+  transition: transform 600ms;
+  background-color: transparent;
+}
+
+.menu-container-close {
+  margin-top: 30px;
+  width: 110px;
+  display: flex;
+  float: left;
+  color:#DAD5B7;
+  align-items: center;
+  border: none;
+  justify-content: space-between;
+  transition: transform 600ms;
+  background-color: transparent;
+}
+
+.menu-container-close:hover {
+  cursor: pointer;
+  transform: scale(1.11);
+}
+
+.menu-container:hover {
+  cursor: pointer;
+  transform: scale(1.11);
+}
+
+menu nav a{
+  color: #DAD5B7;
+  text-decoration: none;
+  margin: 20px -60px 3px;
+  transition: transform 600ms;
+  font-size: 29px;
+}
+
+menu nav a:hover{
+  cursor: pointer;
+  transform: scale(1.11);
+}
+
+hr {
+  border-color: #c2b79b;
+  margin-bottom: 6px;
+}
+
+.menu-nav {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.menu-hamburger {
+  border-bottom-left-radius: 20px;
+  border-left: 1px solid #c2b79b;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  height: 400px;
+  margin-top: -55px;
+  transition: 600ms;
+  background-color: #3a5f6fb2;
+  width: 300px;
+}
+
+#menu-text {
+  letter-spacing: 2px;
 }
 
 .logo {
-  font-size: 40px;
-  font-weight: bolder;
-  text-shadow: 0px 0px 10px #161316;
-  margin-top: 25px;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.logo h4 {
+  font-weight: 400;
 }
 
 .fade {
-  position: absolute;
   height: 35px;
   width: 100%;
-  background-image: linear-gradient(to top, transparent, #8000ff54);
+  background-image: linear-gradient(0deg, transparent, #3a5f6f);
+}
+
+#divider {
+  margin-top: 15px;
+  width: 60%;
 }
