@@ -34,7 +34,7 @@
   align-items: center;
   border: none;
   justify-content: space-between;
-  transition: transform 600ms;
+  transition: all 600ms;
   background-color: transparent;
 }
 
@@ -47,17 +47,19 @@
   align-items: center;
   border: none;
   justify-content: space-between;
-  transition: transform 600ms;
+  transition: all 600ms;
   background-color: transparent;
 }
 
 .menu-container-close:hover {
   cursor: pointer;
+  transition: all 600ms;
   transform: scale(1.11);
 }
 
 .menu-container:hover {
   cursor: pointer;
+  transition: all 600ms;
   transform: scale(1.11);
 }
 
@@ -65,7 +67,7 @@ menu nav a{
   color: #DAD5B7;
   text-decoration: none;
   margin: 20px -60px 3px;
-  transition: transform 600ms;
+  transition: all 600ms;
   font-size: 29px;
 }
 
@@ -100,6 +102,7 @@ hr {
   height: 400px;
   margin-top: -55px;
   transition: 600ms;
+  transition: all 600ms;
   background-color: #3a5f6fb2;
   width: 300px;
 }
