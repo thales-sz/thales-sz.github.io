@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           facilis dicta debitis architecto eveniet, dolore nisi.
         </h1>
       </article>
+      <Footer />
     </main>
   );
 }
