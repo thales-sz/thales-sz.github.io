@@ -24,7 +24,7 @@ function Menu() {
     console.log('blur');
     const menuContainer = document.querySelector('.menu-hamburger');
     menuContainer.style.backgroundImage = '';
-    menuContainer.style.backgroundColor = '#3a5f6f';
+    menuContainer.style.backgroundColor = '#3a5f6fb2';
   };
 
   const handleMenuClick = () => {
