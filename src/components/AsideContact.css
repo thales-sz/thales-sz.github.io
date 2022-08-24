@@ -15,26 +15,22 @@
 }
 
 .contact-icon {
-  margin-left: 9px;
+  pointer-events: none;
+  margin-left: 3px;
   z-index: 0;
 }
 
-#contact-text {
-  font-size: 15px;
-}
-
-#helper:hover > .contact-me {
+.contact-me:hover {
   transition: all 600ms;
+  font-size: 17px;
   width: 140px;
 }
 
-#helper:hover > .contact-me > #content-text {
-  transition: all 600ms;
-  color: black;
+.contact-me:hover {
+  cursor: pointer;
 }
 
-#helper {
-  margin-left: 9px;
-  width: 110px;
-  z-index: 10;
+#contact-text {
+  margin-left: 10px;
+  pointer-events: none;
 }
