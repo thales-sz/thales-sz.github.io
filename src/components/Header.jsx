@@ -18,7 +18,7 @@ function Header() {
     <header className={ fullHeader ? 'header-full' : 'header' }>
       <div className="header-container">
         <section className="logo">
-          <img src="src/images/logo.png" width="70px" alt="logo" />
+          <img src="./src/images/logo.png" width="70px" alt="logo" />
           <section className="text-header">
             <h1>Thales Chagas</h1>
             <h4>Fullstack Web Developer Student</h4>

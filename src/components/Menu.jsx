@@ -9,13 +9,13 @@ function Menu() {
     const menuContainer = document.querySelector('.menu-hamburger');
     switch (id) {
     case 'contact-nav':
-      menuContainer.style.backgroundImage = 'url(src/images/contact.png)';
+      menuContainer.style.backgroundImage = 'url(./src/images/contact.png)';
       break;
     case 'projects-nav':
-      menuContainer.style.backgroundImage = 'url(src/images/project.png)';
+      menuContainer.style.backgroundImage = 'url(./src/images/project.png)';
       break;
     default:
-      menuContainer.style.backgroundImage = 'url(src/images/about.png)';
+      menuContainer.style.backgroundImage = 'url(./src/images/about.png)';
       break;
     }
   };

@@ -41,7 +41,7 @@ function App() {
             <a href="projects">View My Projects</a>
           </nav>
         </article>
-        <img className="main-photo" alt="thales chagas" src="src/images/thales.png" />
+        <img className="main-photo" alt="thales chagas" src="./src/images/thales.png" />
       </section>
       <FooterInitial />
       <AsideContact />
