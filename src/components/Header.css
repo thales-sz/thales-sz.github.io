@@ -92,18 +92,16 @@ hr {
   border-bottom-left-radius: 20px;
   border-left: 1px solid #c2b79b;
   display: flex;
-  background-repeat: no-repeat;
+  background: #3a5f6f center no-repeat;
   background-size: cover;
-  background-position: center;
   flex-direction: column;
   align-items: center;
   position: absolute;
   right: 0;
   height: 400px;
   margin-top: -55px;
-  transition: 600ms;
-  transition: all 600ms;
-  background-color: #3a5f6fb2;
+  transition: all 700ms;
+  background-color: #3a5f6f;
   width: 300px;
 }
 
