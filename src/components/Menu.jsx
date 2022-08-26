@@ -9,13 +9,13 @@ function Menu() {
     const menuContainer = document.querySelector('.menu-hamburger');
     switch (id) {
     case 'contact-nav':
-      menuContainer.style.backgroundImage = 'url(./src/images/contact.png)';
+      menuContainer.style.backgroundImage = 'url(https://i.im.ge/2022/08/26/OmfiCG.contact.png)';
       break;
     case 'projects-nav':
-      menuContainer.style.backgroundImage = 'url(./src/images/project.png)';
+      menuContainer.style.backgroundImage = 'url(https://i.im.ge/2022/08/26/OmfhDL.project.png)';
       break;
     default:
-      menuContainer.style.backgroundImage = 'url(./src/images/about.png)';
+      menuContainer.style.backgroundImage = 'url(https://i.im.ge/2022/08/26/OmfLec.about.png)';
       break;
     }
   };
