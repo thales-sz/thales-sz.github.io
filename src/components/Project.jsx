@@ -6,13 +6,20 @@ function Project({ data, id }) {
   const { title, description } = data;
 
   const handleFocus = () => {
+    console.log('oi');
     setCover(false);
+  };
+
+  const handleBlur = () => {
+    setCover(true);
   };
   return (
     <article
       className={ `project-box${id}` }
       onMouseOver={ handleFocus }
       onFocus={ handleFocus }
+      onMouseOut={ handleBlur }
+      onBlur={ handleBlur }
     >
       {cover ? (
         <div className="cover">
