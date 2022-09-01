@@ -58,7 +58,7 @@ function Menu() {
             <hr />
             <a
               id="about-nav"
-              href="#skills"
+              href="#about"
               onFocus={ handleFocus }
               onMouseOver={ handleFocus }
               onBlur={ handleBlur }
@@ -70,14 +70,20 @@ function Menu() {
             <hr />
             <a
               id="contact-nav"
-              href="#home"
+              href="#contact"
               onFocus={ handleFocus }
               onMouseOver={ handleFocus }
               onBlur={ handleBlur }
               onMouseOut={ handleBlur }
             >
               Contact
-
+            </a>
+            <hr />
+            <a
+              id="home-nav"
+              href="#home"
+            >
+              Home
             </a>
             <hr />
           </nav>

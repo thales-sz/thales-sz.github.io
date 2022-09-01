@@ -5,7 +5,7 @@ import Project from './Project';
 
 export default function ProjectsLabel() {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <h1 className="title-name">SELECTED PROJECTS</h1>
       <section className="projects">
         {data.map((project, i) => <Project key={ i } data={ project } id={ i } />)}

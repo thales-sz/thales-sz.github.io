@@ -1,0 +1,17 @@
+#about .title-name {
+  margin: 50px auto;
+  font-size: 40px;
+}
+
+.second-title {
+  color: #141414;
+  margin: 20px auto;
+  letter-spacing: 4px;
+  font-size: 18px;
+  font-weight: 100;
+  padding-bottom: 5px;
+}
+
+.text-about-me {
+  font-size: x-large;
+}
