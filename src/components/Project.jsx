@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { FaGithub } from 'react-icons/fa';
+import { ImDice } from 'react-icons/im';
 
 function Project({ data, id }) {
   const [cover, setCover] = useState(true);
-  const { title, description } = data;
+  const { title, description, links } = data;
 
   const handleFocus = () => {
-    console.log('oi');
     setCover(false);
   };
 
@@ -28,9 +29,21 @@ function Project({ data, id }) {
         </div>
       )
         : (
-          <div>
+          <div className="no-cover">
             <div className="title-project">{title}</div>
+            <hr />
             <div className="desc-project">{description}</div>
+            <hr />
+            <nav className="links-nav">
+              <a href={ links.github } target="_blank" rel="noreferrer" className="link">
+                Git Repository
+                <FaGithub size="50px" />
+              </a>
+              <a href={ links.vercel } target="_blank" rel="noreferrer" className="link">
+                Demonstration
+                <ImDice size="50px" />
+              </a>
+            </nav>
           </div>
         )}
     </article>
