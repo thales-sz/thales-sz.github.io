@@ -2,7 +2,7 @@ import React from 'react';
 
 function MainContent() {
   return (
-    <text>
+    <section>
       <h1 className="title">Web Developer.</h1>
       <section className="main-content">
         <article className="main-text">
@@ -37,7 +37,7 @@ function MainContent() {
         </article>
         <img className="main-photo" alt="thales chagas" src="https://i.im.ge/2022/08/26/Omf0vx.thales.png" />
       </section>
-    </text>
+    </section>
   );
 }
 

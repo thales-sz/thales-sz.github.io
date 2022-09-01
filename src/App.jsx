@@ -16,6 +16,7 @@ function App() {
       <AsideContact />
       <ContentDivider />
       <ProjectsLabel />
+      <ContentDivider />
     </main>
   );
 }

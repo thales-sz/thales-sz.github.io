@@ -1,19 +1,15 @@
 import React from 'react';
 import './ProjectsLabel.css';
+import data from './projects/projectsData';
+import Project from './Project';
 
 export default function ProjectsLabel() {
   return (
-    <sectin className="projects">
-      <h1>Projects:</h1>
-      <article>
-        <ul>
-          <li>PROJETO 1</li>
-          <li>PROJETO 2</li>
-          <li>PROJETO 3</li>
-          <li>PROJETO 4</li>
-          <li>COMING SOON...</li>
-        </ul>
-      </article>
-    </sectin>
+    <div className="projects-container">
+      <h1 className="project-title">PROJECTS</h1>
+      <section className="projects">
+        {data.map((project, i) => <Project key={ i } data={ project } id={ i } />)}
+      </section>
+    </div>
   );
 }
