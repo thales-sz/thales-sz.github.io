@@ -13,10 +13,7 @@ function Slider() {
         slidesPerView={ 1 }
         scrollbar={ { draggable: true } }
         loop
-        autoplay
         speed={ 800 }
-        onSwiper={ (swi) => console.log(swi) }
-        onSlideChange={ () => console.log('slide change') }
         className="swiper"
       >
         <SwiperSlide className="swiper-slide">
