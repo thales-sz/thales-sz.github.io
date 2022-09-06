@@ -1,6 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Scrollbar } from 'swiper';
+import { Navigation } from 'swiper';
 
 import './Slider.css';
 
@@ -8,7 +8,7 @@ function Slider() {
   return (
     <div className="container">
       <Swiper
-        modules={ [Navigation, Scrollbar] }
+        modules={ [Navigation] }
         spaceBetween={ 50 }
         slidesPerView={ 1 }
         scrollbar={ { draggable: true } }
