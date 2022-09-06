@@ -83,7 +83,6 @@ hr {
 }
 
 .menu-nav {
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;

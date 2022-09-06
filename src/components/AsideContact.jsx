@@ -17,28 +17,25 @@ function AsideContact() {
     setContactMeText(false);
   };
 
-  const handleClick = () => {
-    console.log('hellu');
-  };
   return (
-    <button
+    <a
       className="contact-me"
       type="button"
       onMouseOver={ handleHover }
       onMouseOut={ handleOut }
       onBlur={ handleOut }
       onFocus={ handleHover }
-      onClick={ handleClick }
+      href="#contact"
     >
       <div className="contact-icon">
-        <MdOutlineMailOutline size="32px" />
+        <MdOutlineMailOutline size="34px" />
       </div>
       {contactMeText ? (
         <span id="contact-text">
           Contact Me
         </span>
       ) : null}
-    </button>
+    </a>
   );
 }
 
