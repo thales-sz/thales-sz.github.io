@@ -14,12 +14,12 @@ function App() {
       <Header />
       <MainContent />
       <FooterInitial />
-      <AsideContact />
       <ContentDivider />
       <ProjectsLabel />
       <ContentDivider />
       <AboutMe />
       <ContentDivider />
+      <AsideContact />
     </main>
   );
 }
