@@ -1,0 +1,23 @@
+.footer-text-copy {
+  color: #665e52;
+  width: 280px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+
+.footer-text {
+  color: #665e52;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.footer-hr {
+  border: 1px solid #665e52;
+  width: 30%;
+  margin: 0 auto;
+}

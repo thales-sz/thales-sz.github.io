@@ -133,7 +133,13 @@
 }
 
 .text-projects {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 300;
   color:#0f0f0f
+}
+
+.text-projects a {
+  text-decoration: none;
+  font-weight: 600;
+  color:#3a5f6f;
 }

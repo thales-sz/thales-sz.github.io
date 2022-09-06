@@ -1,0 +1,32 @@
+#contact {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .title-name {
+  margin: 40px auto;
+  font-size: 40px;
+}
+
+#contact #first-text {
+  display: flex;
+  word-spacing: 10px;
+  margin: 0 auto;
+  text-decoration: none;
+  transition: all 800ms;
+}
+
+#contact #first-text:hover {
+  transition: all 800ms;
+  text-decoration: underline;
+}
+
+.icon {
+  margin-left: 20px;
+}
+
+.information-nav {
+  font-size: 22px;
+  font-weight: 350;
+}
