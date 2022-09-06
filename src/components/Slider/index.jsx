@@ -1,5 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper.min.css';
 import 'swiper/modules/pagination/pagination.min.css';
 import 'swiper/swiper-bundle.css';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -19,7 +20,6 @@ function Slider() {
         loop
         onSwiper={ (swiper) => console.log(swiper) }
         onSlideChange={ () => console.log('slide change') }
-        className="swiper"
       >
         <SwiperSlide className="swiper-slide">
           <img src="https://i.im.ge/2022/09/06/OZlnsc.eu-primeira-ft.png" alt="eu" width="400px" />
