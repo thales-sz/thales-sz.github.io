@@ -12,7 +12,7 @@ function Footer() {
         2022 — Thales Souza Chagas.
       </div>
       <div className="footer-text">
-        Made with
+        Made with Vite, React and
         {' '}
         <BsFillSuitHeartFill />
         {' '}

@@ -1,9 +1,8 @@
 .projects {
   color: #DAD5B7;
   border-radius: 5px;
-  margin: 40px auto;
+  margin: 0 auto;
   width: 80%;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.486);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -18,8 +17,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
-  width: 25%;
-  height: 65%;
+  width: 30%;
+  height: 80%;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.486);
 }
 
@@ -29,8 +28,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
-  width: 25%;
-  height: 65%;
+  width: 30%;
+  height: 80%;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.486);
 }
 
@@ -41,15 +40,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
-  width: 25%;
-  height: 65%;
+  width: 30%;
+  height: 80%;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.486);
 }
 
 .project-title {
   width: 100%;
   font-weight: 900;
-  margin-top: 30px;
+  margin-top: 10px;
   font-size: 50px;
   color: #3a5f6f;
 }
@@ -134,8 +133,14 @@
 
 .text-projects {
   font-size: 25px;
+  width: 800px;
   font-weight: 300;
-  color:#0f0f0f
+  color:#5e5b4a;
+  margin: 0 auto;
+}
+
+.text-projects strong {
+  color:#3a5f6f;
 }
 
 .text-projects a {
