@@ -18,6 +18,28 @@ export default function ProjectsLabel() {
       <section className="projects">
         {data.map((project, i) => <Project key={ i } data={ project } id={ i } />)}
       </section>
+      <h2 className="text-projects">
+        The most used skills during the development
+        of these projects were
+        {' '}
+        <strong>HTML</strong>
+        ,
+        {' '}
+        <strong>CSS</strong>
+        ,
+        {' '}
+        <strong>JavaScript</strong>
+        ,
+        {' '}
+        <strong>React</strong>
+        ,
+        {' '}
+        and
+        {' '}
+        <strong>Redux</strong>
+        .
+        Feel free to ask me anything about them.
+      </h2>
     </div>
   );
 }
