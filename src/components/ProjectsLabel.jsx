@@ -22,10 +22,10 @@ export default function ProjectsLabel() {
         The most used skills during the development
         of these projects were
         {' '}
-        <strong>HTML</strong>
+        <strong>Node</strong>
         ,
         {' '}
-        <strong>CSS</strong>
+        <strong>TypeScript</strong>
         ,
         {' '}
         <strong>JavaScript</strong>
@@ -33,6 +33,8 @@ export default function ProjectsLabel() {
         {' '}
         <strong>React</strong>
         ,
+        {' '}
+        <strong>Express + Sequelize</strong>
         {' '}
         and
         {' '}
