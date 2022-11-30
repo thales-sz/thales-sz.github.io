@@ -47,7 +47,7 @@ function ContactMe() {
             <FaLinkedin size="60px" />
             Linkedin
           </a>
-          <a className="download" href="https://drive.google.com/u/0/uc?id=1CDaHxOfgtYMPF35Z28KdvKBAIlTPkMU3&export=download">Download CV</a>
+          <a className="download" href="https://www.linkedin.com/in/thales-sz/">Download CV</a>
         </nav>
         <nav className="social-nav">
           <h1>Follow me on —</h1>
