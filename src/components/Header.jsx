@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
+import AsideButton from './AsideButton';
 import './Header.css';
 import Menu from './Menu';
 
-const TWO_HUNDRED = 200;
+const THREE_HUNDRED = 300;
 
 function Header() {
   const [fullHeader, setFullHeader] = useState();
 
   window.addEventListener('scroll', () => {
-    if (window.scrollY > TWO_HUNDRED) {
+    if (window.scrollY > THREE_HUNDRED) {
       setFullHeader(true);
     } else {
       setFullHeader(false);
@@ -26,6 +27,9 @@ function Header() {
         </section>
         <Menu />
       </div>
+      { fullHeader ? (
+        <AsideButton />
+      ) : (null) }
     </header>
   );
 }

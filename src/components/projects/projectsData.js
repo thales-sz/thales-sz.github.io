@@ -1,10 +1,10 @@
 const data = [
   {
-    title: 'Netflix Clone',
+    title: 'Futebol Clube',
     description:
-      'A prototype of the famous provider of movies and series via streaming Netflix',
-    links: { github: 'https://github.com/thales-sz/netflix-clone-with-react-redux', vercel: 'https://netflix-clone-with-react-redux.vercel.app/' },
-    image: 'https://images.unsplash.com/photo-1512070800540-0d4192faa057?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+      'An backend application that handle an soccer table with access to a data base',
+    links: { github: 'https://github.com/thales-sz/trybeFutebolClub', vercel: 'https://trybefutebolclub.vercel.app/' },
+    image: 'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80',
   },
   {
     title: 'My Wallet',

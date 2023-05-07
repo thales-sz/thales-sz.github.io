@@ -8,7 +8,7 @@ function MainContent() {
         <article className="main-text">
           <span className="title-name">THALES SOUZA CHAGAS</span>
           <div className="introduction">
-            <p id="first-text">Frontend Web Developer</p>
+            <p id="first-text">Fullstack Web Developer</p>
             <span id="second-text">
               From the past year I&apos;ve been working hard to
               improve myself on web development. I&apos;m studying at
@@ -23,7 +23,7 @@ function MainContent() {
               </a>
               <span id="last-text">
                 and currently I&apos;m learning
-                backend development. Welcome!
+                computer science and mongoDB. Welcome!
               </span>
             </span>
           </div>
