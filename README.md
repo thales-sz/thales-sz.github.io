@@ -1,5 +1,5 @@
 # Portfolio | Thales Souza Chagas
 
-Meu portfolio Web desenvolvido durante o curso de Desenvolvimento Web Fullstack na Trybe :rocket:
+Meu portfolio Web :rocket:
 
 https://thales-sz.github.io/
