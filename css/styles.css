@@ -10974,7 +10974,7 @@ section.resume-section .resume-section-content {
 }
 
 .back-to-top {
-  display: inline-flex;
+  display: none;
   position: fixed;
   align-items: center;
   justify-content: center;

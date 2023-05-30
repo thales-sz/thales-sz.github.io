@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', event => {
 window.addEventListener('scroll', () => {
     const backTopButton = document.querySelector(".back-to-top");
     if (window.scrollY > 600) {
-        return backTopButton.style.display = '';
+        return backTopButton.style.display = 'inline-flex';
     }
     return backTopButton.style.display = 'none';
 })
