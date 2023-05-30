@@ -8116,7 +8116,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity));
 }
 
 .bg-secondary {
@@ -10957,4 +10957,37 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+@media (max-width: 768px) {
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+  }
+}
+
+@media (min-width: 768px) {
+  .projects-container {
+    width: 100%;
+  }
+}
+
+.back-to-top {
+  display: inline-flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  bottom:15px;
+  right:15px;
+}
+
+.back-to-top:hover {
+  background-color: #420f92;
 }
