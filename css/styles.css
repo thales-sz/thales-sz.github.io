@@ -560,7 +560,9 @@ progress {
 
 .list-inline-item {
   display: inline-block;
+  item-align: center;
 }
+
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
 }
@@ -7896,6 +7898,10 @@ textarea.form-control-lg {
   gap: 3rem !important;
 }
 
+.gap-6 {
+  gap: 4rem !important;
+}
+
 .font-monospace {
   font-family: var(--bs-font-monospace) !important;
 }
@@ -10963,8 +10969,17 @@ section.resume-section .resume-section-content {
   .projects-container {
     display: flex;
     flex-direction: column;
-    width: 200%;
+    width: 250%;
   }
+}
+
+.item-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 2rem;
+  width: 40%;
 }
 
 @media (min-width: 768px) {
